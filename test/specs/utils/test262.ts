@@ -41,7 +41,7 @@ const util = require("util")
 const glob = require("glob")
 const jsYaml = require("js-yaml")
 
-const {evaled, overrides} = require("./test262-overrides.json")
+const {evaled, overrides} = require("../../../test262-overrides.json")
 
 export default (opts: any) => {
     const resolve = (dir: any) => path.resolve(opts.test262Dir, dir)
